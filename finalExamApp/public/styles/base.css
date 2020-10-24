@@ -22,10 +22,6 @@ h2 {
 	background-color:  rgb(74,74,74);
 	line-height: 5.8vh;
 	color: white;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
 	border-radius: 20px;
 	z-index: 0;
 }

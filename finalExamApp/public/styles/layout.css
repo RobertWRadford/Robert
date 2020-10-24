@@ -1,7 +1,7 @@
 /*sourced from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
 /* Style the navigation menu */
 .topnav {
-	background-color: #333;
+	background-color: black;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
@@ -23,23 +23,20 @@
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
-  padding: 0px;
-  height: 2.77vh;
+	background: black;
 }
 
 .topnav a.icon i {
 	line-height: 2.77vh;
-	width: 13.9vw;
+	width: 4vw;
 	height: 2.77vh;
 }
 
@@ -94,6 +91,7 @@
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
+	font-size: 32px;
 	line-height: 2.77vh;
 }
 
@@ -103,7 +101,7 @@
 	margin-top: 5vh;
 	display: inline-block;
 	background-color: rgb(74,74,74);
-	border-radius: 20px; 
+	border-radius: 20px;
 }
 
 .showContainer {
@@ -111,8 +109,4 @@
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
-}
-
-.bookItem > form > input {
-	width: 15vw;
 }
