@@ -26,6 +26,7 @@ h2 {
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
+	border-radius: 20px;
 	z-index: 0;
 }
 

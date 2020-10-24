@@ -103,6 +103,7 @@
 	margin-top: 5vh;
 	display: inline-block;
 	background-color: rgb(74,74,74);
+	border-radius: 20px; 
 }
 
 .showContainer {
