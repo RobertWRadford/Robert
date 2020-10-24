@@ -11,14 +11,14 @@
 /* Hide the links inside the navigation menu (except for logo/home) */
 #myLinks {
 	display: none;
-	background-color:  rgba(0, 0, 0, 0.8);
-	line-height: 5.8vh;
-	color: white;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	width: 100vw;
+	background-color:  rgba(255, 255, 255, 0.7);
+	line-height: 10vh;
+	color: black;
+	position: fixed;
+	height: 10vh;
 	z-index: 1;
+	font-size: max(16px, 1.8vw);
 }
 
 /* Style navigation menu links */
@@ -61,46 +61,6 @@
 
 /*end source code*/
 
-.queryForm {
-	display: inline-grid;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 4; 
-	grid-row-end: 11;
-	grid-template-columns: 79.5vw;
-	grid-template-rows: 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh;
-}
-
-.inpA {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
-}
-
-.inpB {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
-}
-
-.inpC {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 5;
-	grid-row-end: 6;
-}
-
-.inpD {
-	line-height: 6.3vh;
-	font-size: 2.5vw;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 7;
-	grid-row-end: 8;
-}
-
 .footDivA {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -137,45 +97,19 @@
 	line-height: 2.77vh;
 }
 
-.newContainer {
-	margin-top: 8.6vh;
-	display: inline-grid;
-	grid-template-columns: 10.25vw 79.5vw 10.25vw;
-	grid-template-rows: 5.8vh 4.4vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 41.1vh;
-}
-
-.indexContainer {
-	display: flex;
-	flex-direction: column;
-	z-index: 0;
-	padding-top: 20px;
-	justify-content: flex-start;
-	margin-top: 8.6vh;
-}
-
-.indexContainer > a {
-	margin: auto;
-}
-
-.bookSection {
+.pokemonChoice {
 	width: 50vw;
 	margin: auto;
 	margin-top: 5vh;
 	display: inline-block;
-}
-
-.detailContainer {
-	margin-top: 8.6vh;
-	height: 85.6vh;
-	align-items: center;
-	width: 100vw;
-	display: inline-block;
+	background-color: rgb(74,74,74);
 }
 
 .showContainer {
 	margin-top: 8.6vh;
 	width: 100vw;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 }
 
 .bookItem > form > input {

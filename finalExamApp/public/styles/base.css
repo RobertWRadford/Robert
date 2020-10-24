@@ -46,12 +46,14 @@ button{
 	background-color: black;
 	color: white;
 	border-radius: 8px;
+	margin-bottom: 10px;
 }
 
 footer {
 	background-color: black;
 	display: inline-grid;
 	height: 5.8vh;
+	margin-top: 5vh;
 	width:100vw;
 	grid-template-columns: 4vw 4vw 25.3vw 4vw 25.3vw 4vw 25.3vw 4vw 4vw;
 	grid-template-rows: 1.75vh 2.63vh 1.75vh;
