@@ -1,0 +1,183 @@
+/*sourced from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
+/* Style the navigation menu */
+.topnav {
+	background-color: #333;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+#myLinks {
+	display: none;
+	background-color:  rgba(0, 0, 0, 0.8);
+	line-height: 5.8vh;
+	color: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	z-index: 1;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  padding: 0px;
+  height: 2.77vh;
+}
+
+.topnav a.icon i {
+	line-height: 2.77vh;
+	width: 13.9vw;
+	height: 2.77vh;
+}
+
+.fa-bars {
+	transform: scale(2,2);
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*end source code*/
+
+.queryForm {
+	display: inline-grid;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4; 
+	grid-row-end: 11;
+	grid-template-columns: 79.5vw;
+	grid-template-rows: 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh;
+}
+
+.inpA {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.inpB {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.inpC {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+
+.inpD {
+	line-height: 6.3vh;
+	font-size: 2.5vw;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+.footDivA {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.footDivB {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.footDivC {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.footDivD {
+	grid-column-start: 8;
+	grid-column-end: 9;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.headH1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	line-height: 2.77vh;
+}
+
+.newContainer {
+	margin-top: 8.6vh;
+	display: inline-grid;
+	grid-template-columns: 10.25vw 79.5vw 10.25vw;
+	grid-template-rows: 5.8vh 4.4vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 2.9vh 6.4vh 41.1vh;
+}
+
+.indexContainer {
+	display: flex;
+	flex-direction: column;
+	z-index: 0;
+	padding-top: 20px;
+	justify-content: flex-start;
+	margin-top: 8.6vh;
+}
+
+.indexContainer > a {
+	margin: auto;
+}
+
+.bookSection {
+	width: 50vw;
+	margin: auto;
+	margin-top: 5vh;
+	display: inline-block;
+}
+
+.detailContainer {
+	margin-top: 8.6vh;
+	height: 85.6vh;
+	align-items: center;
+	width: 100vw;
+	display: inline-block;
+}
+
+.showContainer {
+	margin-top: 8.6vh;
+	width: 100vw;
+	display: inline-block;
+}
+
+.bookItem > form > input {
+	width: 15vw;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../../layout/head') %>
+  <body>
+    <%- include('../../layout/header') %>
+    <div class="showContainer">
+      <ul>
+        <% pokemon.forEach(mans => { %>
+          <li class="pokemonChoice">
+            <h2><%= mans.name %></h2>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+    <%- include('../../layout/footer') %>
+    <%- include('../../layout/navScript') %>
+  </body>
+</html>
