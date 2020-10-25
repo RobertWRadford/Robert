@@ -16,6 +16,7 @@ header {
 	display: inline-grid;
 	grid-template-columns: 30.9vw 55.2vw 13.9vw;
 	grid-template-rows: 2.77vh 2.77vh 3.06vh;
+	border-bottom: 4px solid black;
 }
 
 h2 {
@@ -55,6 +56,7 @@ footer {
 	width:100vw;
 	grid-template-columns: 4vw 4vw 25.3vw 4vw 25.3vw 4vw 25.3vw 4vw 4vw;
 	grid-template-rows: 1.75vh 2.63vh 1.75vh;
+	border-top: 4px solid black;
 }
 
 footer > div {
