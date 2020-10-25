@@ -3,7 +3,14 @@
   <%- include('../../layout/head') %>
   <body>
     <%- include('../../layout/header') %>
-    <a id='myLinks' class='pageLink' href='/favorites'>Favorites</a>
+    <div id='myLinks'>
+      <div id='pokeball'>
+        <a class='upperBall'></a>
+        <a class='middleBall'></a>
+        <a class='pageLink' href='/favorites'></a>
+        <a class='lowerBall'></a>
+      </div>
+    </div>
     <div class="showContainer">
       <ul>
         <% pokemon.forEach(mans => { %>

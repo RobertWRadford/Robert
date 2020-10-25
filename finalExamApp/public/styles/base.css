@@ -1,12 +1,12 @@
 body {
-	background: rgb(155,155,155);
+	background: rgb(255,185,185);
 	text-align: center;
 	border-collapse: collapse;
 	border-spacing: 0px;
 }
 
 header {
-	background-color: rgb(0,0,0);
+	background-color: rgb(155,0,0);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -19,11 +19,12 @@ header {
 }
 
 h2 {
-	background-color:  rgb(74,74,74);
+	background-color:  rgb(155,0,0);
 	line-height: 5.8vh;
 	color: white;
 	border-radius: 20px;
 	z-index: 0;
+	font-size: max(20px, 2vw);
 }
 
 input {
@@ -32,7 +33,7 @@ input {
 }
 
 fieldset {
-	background-color: rgb(216,216,216);
+	background-color: rgb(155,0,0);
 	line-height: 6.4vh;
 	text-align: left;
 	padding-left: 3vw;
@@ -40,14 +41,14 @@ fieldset {
 }
 
 button{
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: rgb(155,0,0);
 	border-radius: 8px;
 	margin-bottom: 10px;
 }
 
 footer {
-	background-color: black;
+	background-color: rgb(155,0,0);
 	display: inline-grid;
 	height: 5.8vh;
 	margin-top: 5vh;
@@ -57,7 +58,7 @@ footer {
 }
 
 footer > div {
-	background-color: dimgrey;
+	background-color: white;
 	border-radius: 50%;
 }
 
